@@ -9,9 +9,6 @@ version          "1.4.0"
 recipe "newrelic-sysmond", "Install and configure newrelic-sysmond"
 
 depends "apt", ">= 1.9.2"
-depends "yum", ">= 3.0"
 
 supports "debian"
 supports "ubuntu"
-supports "redhat", ">= 5.0"
-supports "centos", ">= 5.0"
